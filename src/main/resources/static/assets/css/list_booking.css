@@ -1,0 +1,136 @@
+.panel_list_booking {
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
+}
+
+article .col-9{
+    height: 100%;
+}
+
+.table_list_booking{
+    height: 84%;
+    width: 98%;
+    margin-top: 3%;
+}
+
+.table_list_time_booking{
+    width: 60%;
+    display: initial;
+}
+
+.text_head{
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.text_body{
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.btn_chi_tiet{
+    width: 31%;
+    border-radius: 30px;
+    background: rgba(88, 165, 255, 1);
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.modal-dialog{
+    max-width: 900px;
+}
+
+.modal-dialog-cancel{
+    max-width: 500px;
+}
+
+.modal-dialog-doi-xe{
+    max-width: 600px;
+}
+
+.lbl_chi_tiet_dat_xe{
+    width: 34%;
+    text-align: left;
+    line-height: 38px;
+    font-weight: 400;
+    margin-bottom: auto;
+}
+
+.text_chi_tiet_dat_xe{
+    width: 60%;
+    text-align: left;
+    line-height: 38px;
+    font-weight: 400;
+}
+
+.lbl_chi_tiet_dat_xe2{
+    width: 40%;
+    text-align: left;
+    line-height: 38px;
+    font-weight: 400;
+    margin-bottom: auto;
+}
+
+.text_chi_tiet_dat_xe2{
+    width: 50%;
+    text-align: left;
+    line-height: 38px;
+    font-weight: 400;
+}
+
+.lbl_chi_tiet_dat_xe_modal_doi_xe{
+    width: 30%;
+    text-align: left;
+    line-height: 38px;
+    font-weight: 500;
+}
+
+.text_chi_tiet_dat_xe_modal_doi_xe{
+    width: 45%;
+    text-align: left;
+    line-height: 38px;
+    font-weight: 400;
+}
+
+.btn_xac_nhan{
+    width: 40%;
+    margin-left: 5%;
+    border-radius: 30px;
+    background: rgba(40, 249, 6, 1);
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.btn_chi_tiet2{
+    width: 43%;
+    border-radius: 30px;
+    background: rgba(88, 165, 255, 1);
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.btn_xac_nhan2{
+    width: 45%;
+    margin-left: 5%;
+    border-radius: 30px;
+    background: rgba(40, 249, 6, 1);
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+}

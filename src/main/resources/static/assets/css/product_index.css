@@ -1,0 +1,150 @@
+.color-aside {
+    margin-left: 12px;
+    width: 30%;
+    height: 566px;
+}
+
+.color-lable{
+    color: rgba(27, 176, 3, 1);
+    width: 31%;
+}
+
+.address{
+    width: 68%;
+}
+
+.time{
+    width: 34%;
+}
+
+.text-find{
+    margin-top: 31px;
+}
+
+.col-6select{
+    border-radius: 25px;
+    width: 60%;
+    height: 31px;
+}
+
+.button-find{
+    float: right;
+    width: 82%;
+}
+
+.button-find a{
+    height: 35px;
+    background-color: #28F906;
+}
+
+.un-find{
+    margin-right: 10px;
+    width: 111px;
+    height: 34px;
+    border-radius: 20px;
+}
+
+.find{
+    background-color: #28F906;
+    margin-left: 10px;
+    width: 111px;
+    line-height: 20px;
+    height: 34px;
+    border-radius: 20px;
+}
+
+.m-article{
+    width: 69%;
+}
+
+.card-xe{
+    border-radius: 57px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    color: aliceblue;
+    background: rgba(45, 40, 40, 1);
+}
+
+.star{
+    width: 31%;
+    text-align: left;
+}
+
+.card-xe .star img{
+    width: 25px;
+    height: 25px;
+}
+
+.trip{
+    width: 68%;
+    text-align: right;
+}
+
+.transmission{
+    background-color: rgba(217, 217, 217, 0.5);
+    width: 45%;
+    border-radius: 20px;
+    text-align: center;
+    height: 25px;
+    margin: auto;
+}
+
+.price-left{
+    width: 50%;
+    color: rgba(40, 249, 6, 1);
+    text-align: left;
+}
+
+.price-right{
+    width: 50%;
+    color: rgba(40, 249, 6, 1);
+    text-align: right;
+}
+
+.dxe{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1px;
+}
+
+.btn-dxe{
+    border-radius: 20px;
+    padding: 9px 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+    align-items: center;
+    line-height: 13px;
+    width: 120px;
+    background-color: rgba(40, 249, 6, 0.7);
+    color: white;
+    text-align: center;
+}
+
+.m-article .card-xe h5{
+    margin-bottom: 20px;
+}
+
+.div-pri{
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
+
+.next_page{
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+}
+
+.btn-next-page{
+    border-radius: 20px;
+    background: rgba(40, 249, 6, 0.7);
+    padding: 9px 15px;
+    cursor: pointer;
+    align-items: center;
+    line-height: 20px;
+    width: 15%;
+    color: white;
+    text-align: center;
+    margin-top: 11px;
+}

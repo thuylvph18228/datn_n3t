@@ -1,0 +1,603 @@
+.backgr {
+    background: rgba(45, 40, 40, 1);
+}
+
+.content_boooking {
+    margin: auto;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.thong_tin_xe {
+    width: 60%;
+}
+
+.dac_diem_xe {
+    width: 90%;
+    height: 277px;
+    border-radius: 50px;
+    margin-left: 30px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 20px 20px 0px 0px #acacac;
+}
+
+.lbl__ {
+    width: 31%;
+    margin-top: 17px;
+    margin-left: 45px;
+}
+
+.div_dac_diem {
+    width: 57%;
+    line-height: 50px;
+}
+
+.text_mo_ta {
+    width: 55%;
+    margin-top: 18px;
+}
+
+.text__ {
+    width: 55%;
+    margin-top: 17px;
+}
+
+.text_xem_chi_tiet {
+    color: rgba(38, 194, 13, 1);
+}
+
+.hang_xe {
+    width: 90%;
+    height: 208px;
+    border-radius: 50px;
+    margin-left: 30px;
+    margin-top: 50px;
+    line-height: 30px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 20px 20px 0px 0px #acacac;
+}
+
+.dieu_khoan {
+    width: 90%;
+    height: 405px;
+    border-radius: 50px;
+    margin-left: 30px;
+    margin-top: 50px;
+    line-height: 30px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 20px 20px 0px 0px #acacac;
+}
+
+.lbl_giay_to_thue_xe {
+    color: rgba(0, 0, 0, 0.5);
+    margin-left: 41px;
+    margin-top: 45px;
+    font-weight: 600;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 60%;
+}
+
+.div_giay_to_thue_xe {
+    font-weight: 300;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 45px;
+    margin-top: 5px;
+}
+
+.lbl_tai_san_the_chap {
+    color: rgba(0, 0, 0, 0.5);
+    margin-left: 40px;
+    margin-top: 7px;
+    font-weight: 600;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.lbl_tai_san {
+    margin-left: 70px;
+    font-weight: 300;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 86%;
+}
+
+.lbl_dieu_khoan {
+    color: rgba(0, 0, 0, 0.5);
+    margin-left: 40px;
+    margin-top: 5px;
+    font-weight: 600;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.div_dieu_khoan {
+    margin-left: 70px;
+    margin-top: 5px;
+    font-weight: 300;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.btn_xem_chi_tiet_dieu_khoan {
+    background: rgba(38, 194, 13, 1);
+    width: 76%;
+    border-radius: 50px;
+    margin-left: 84px;
+    margin-top: 26px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+.don_dat_xe {
+    width: 37%;
+    border-radius: 50px;
+    margin-left: -10px;
+    line-height: 60px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 20px 20px 0px 0px #acacac;
+}
+
+.lbl_ {
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 6%;
+    /* margin-top: 1%; */
+    width: 80%;
+}
+
+.input_ngay {
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-left: 6%;
+    width: 50%;
+}
+
+
+.input_ {
+    width: 85%;
+    margin-left: 6%;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+}
+
+.thoi_gian_nhan_tra_xe {
+    height: 72px;
+    width: 88%;
+    margin-left: 30px;
+    margin-top: 16px;
+    background: rgba(246, 157, 157, 1);
+}
+
+.tgian_nhan_xe {
+    width: 165px;
+    margin-top: 6px;
+    margin-left: 28px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+}
+
+.time_nhan_xe {
+    width: 120px;
+    margin-top: 6px;
+    margin-left: 111px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+}
+
+.tgian_tra_xe {
+    width: 165px;
+    margin-left: 28px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+}
+
+.time_tra_xe {
+    width: 120px;
+    margin-left: 111px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+}
+
+.input_hthuc {
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+    background: rgba(217, 217, 217, 1);
+}
+
+.hthuctt{
+    width: 34%;
+    margin-left: 40px;
+    margin-top: 5px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.hinhthucthanhtoan{
+    width: 50%;
+    margin-top: 5px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.hinhthucthue{
+    width: 50%;
+    margin-top: 5px;
+    margin-left: 6%;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.lbl_hthuc {
+    width: 26%;
+    margin-top: 0px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.khuyen_mai {
+    height: 50px;
+    width: 88%;
+    margin-left: 30px;
+    margin-top: 16px;
+    background: rgba(246, 157, 157, 1);
+}
+
+.lbl_khuyen_mai {
+    width: 50%;
+    margin-left: 18px;
+    margin-top: 10px;
+    margin-bottom: 66px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.giam_gia {
+    width: 43%;
+    margin-top: 10px;
+    margin-bottom: 69px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+
+.bao_hiem {
+    width: 70%;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.MIC {
+    margin-left: 65px;
+    margin-top: 15px;
+    color: rgba(27, 176, 3, 1);
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.lbl_chi_tiet_gia {
+    width: 60%;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.phi_dich_vu {
+    width: 30%;
+    margin-left: 40px;
+    margin-top: 5px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.tien_phi_dvu {
+    width: 55%;
+    margin-top: 5px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+
+.phi_bao_hiem {
+    width: 30%;
+    margin-left: 40px;
+    margin-top: 5px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.tien_phi_bh {
+    width: 55%;
+    margin-top: 5px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+
+.gia_gio {
+    width: 30%;
+    margin-left: 40px;
+    margin-top: 5px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.tien_gia_gio {
+    width: 55%;
+    margin-top: 5px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+
+.gia_km {
+    width: 30%;
+    margin-left: 40px;
+    margin-top: 5px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.tien_gia_km {
+    width: 55%;
+    margin-top: 5px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+
+.xe_7_cho {
+    background: rgba(31, 27, 27, 0.7);
+    margin: 54px 40px 30px 40px;
+}
+
+.don_vi_thue {
+    width: 30%;
+    margin-left: 40px;
+    margin-top: 5px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.tien_dvi_thue {
+    width: 55%;
+    margin-top: 5px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+
+.kmai {
+    width: 30%;
+    margin-left: 40px;
+    margin-top: 5px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.tien_kmai {
+    width: 55%;
+    margin-top: 5px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+
+.hr_chi_tiet_don_gia {
+    width: 86%;
+    margin-left: 35px;
+    margin-top: 21px;
+    background: rgba(0, 0, 0, 1);
+    border: 1px solid rgba(0, 0, 0, 1);
+}
+
+.tong_phi_thue_xe {
+    width: 30%;
+    margin-left: 40px;
+    margin-top: 5px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.tien_tong_phi_thue_xe {
+    width: 55%;
+    margin-top: 5px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+
+.phi_giao_xe {
+    width: 30%;
+    margin-left: 40px;
+    margin-top: 5px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.tien_phi_giao_xe {
+    width: 55%;
+    margin-top: 5px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+
+.tong_cong {
+    width: 30%;
+    margin-left: 40px;
+    margin-top: 5px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.tien_tong_cong {
+    width: 55%;
+    margin-top: 5px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+
+.btn_dat_xe {
+    width: 80%;
+    margin-left: 12%;
+    margin-top: 3%;
+    margin-bottom: 4%;
+    border-radius: 50px;
+    background: rgba(27, 176, 3, 1);
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+.booking_card-xe {
+    border-radius: 57px;
+    width: 22%;
+    height: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    color: aliceblue;
+    background: rgba(45, 40, 40, 1);
+}
+
+.ml_card {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.star4{
+    width: 38%;
+    text-align: left;
+}
+
+.star4 img{
+    width: 25px;
+    height: 25px;
+}
+
+.trip4{
+    width: 62%;
+    text-align: right;
+}
+
+.transmission4{
+    background-color: rgba(217, 217, 217, 0.5);
+    width: 54%;
+    border-radius: 20px;
+    text-align: center;
+    height: 25px;
+    margin: auto;
+}
+
+.price4{
+    width: 46%;
+    color: rgba(40, 249, 6, 1);
+    text-align: right;
+}
+
+.carousel-control-prev {
+    width: 90px;
+}
+
+.carousel-control-next {
+    width: 90px;
+}
+
+.color_white{
+    color: white;
+}

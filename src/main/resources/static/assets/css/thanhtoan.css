@@ -1,0 +1,43 @@
+.thanhtoan {
+    width: 90%;
+    height: 910px;
+    border-radius: 50px;
+    margin-left: 30px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 20px 20px 0px 0px #acacac;
+}
+
+.lbl__thanhtoan{
+    width: 31%;
+    margin-left: 45px;
+    line-height: 40px;
+}
+
+.text__thanhtoan{
+    width: 55%;
+    line-height: 40px;
+}
+
+.lbl501{
+    width: 47%;
+    margin-left: 45px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.lbl502{
+    width: 47%;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.text501{
+    width: 47%;
+    margin-left: 45px;
+    line-height: 40px;
+}
+
+.text502{
+    width: 47%;
+    line-height: 40px;
+}

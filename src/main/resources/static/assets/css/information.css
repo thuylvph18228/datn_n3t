@@ -1,0 +1,205 @@
+.bginfom {
+    height: 122px;
+    width: 100%;
+    border-radius: 0px;
+    background: rgba(36, 33, 31, 1);
+}
+
+.btn_thong_tin_ca_nhan {
+    height: 34%;
+    width: 16%;
+    margin-left: 23%;
+    margin-top: 3%;
+    border-radius: 50px;
+    background: rgba(27, 176, 3, 1);
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+}
+
+.btn_chuyen_di {
+    height: 34%;
+    width: 16%;
+    margin-left: 4%;
+    margin-top: 3%;
+    border-radius: 50px;
+    background: rgba(27, 176, 3, 1);
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+}
+
+.btn_chuyen_di_history {
+    height: 34%;
+    width: 16%;
+    margin-left: 4%;
+    margin-top: 3%;
+    border-radius: 50px;
+    background: rgba(27, 176, 3, 1);
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+}
+
+.thong_tin_ca_nhan {
+    width: 66%;
+    margin-left: 3%;
+    margin-top: 2%;
+    margin-bottom: 49px;
+    border-radius: 20px;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    border: 2px solid rgba(38, 194, 13, 1);
+    box-shadow: 20px 20px 0px 0px #acacac;
+}
+
+.lbl_name {
+    width: 20%;
+    margin-left: 4%;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.lbl_information {
+    width: 75%;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.image_information {
+    width: 75%;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.lbl-name-edit {
+    width: 20%;
+    margin-left: 4%;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.input_information {
+    width: 75%;
+    margin-bottom: 20px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.input_gender {
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+    background: rgba(217, 217, 217, 1);
+}
+
+.lbl_gender {
+    width: 50px;
+    margin-top: 0px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.sdt {
+    height: 46px;
+    width: 221px;
+    margin-left: 159px;
+    margin-top: 45px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.panel_cccd_mat_truoc {
+    height: 190px;
+    width: 48%;
+    border-radius: 20px;
+    background: #acacac;
+}
+
+.panel_cccd_mat_sau {
+    height: 190px;
+    width: 48%;
+    margin-left: 4%;
+    border-radius: 20px;
+    background: #acacac;
+}
+
+.panel_bang_lai_mat_truoc {
+    height: 190px;
+    width: 48%;
+    border-radius: 20px;
+    background: #acacac;
+}
+
+.panel_bang_lai_mat_sau {
+    height: 190px;
+    width: 48%;
+    margin-left: 4%;
+    border-radius: 20px;
+    background: #acacac;
+}
+
+.dia_chi{
+    height: 46px;
+    width: 827px;
+    margin-left: 70px;
+    margin-top: 56px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.panel_btn_sua_thong_tin_ca_nhan {
+    height: 150px;
+    width: 25%;
+    margin-left: 42px;
+    margin-top: 32px;
+    border-radius: 20px;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    border: 2px solid rgba(38, 194, 13, 1);
+}
+
+.btn_sua_thong_tin_ca_nhan{
+    width: 65%;
+    margin-left: 18%;
+    margin-top: 16%;
+    border-radius: 50px;
+    background: rgba(27, 176, 3, 1);
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
