@@ -6,6 +6,7 @@ import org.hibernate.annotations.UpdateTimestamp;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
+import java.util.List;
 
 @Data
 @Entity
@@ -67,4 +68,7 @@ public class Bill {
 //    @ManyToOne
 //    @JoinColumn(name = "acc_id")
 //    private Pay pay;
+
+    @OneToMany(mappedBy = "bill", cascade = CascadeType.ALL)
+    private List<BillProduct> billProducts;
 }

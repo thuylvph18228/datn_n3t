@@ -23,13 +23,13 @@ public class Products {
 
     private String status;
     private String gender;
-    private int price;
+//    private int price;
 
     @Column(name = "total_amount")
     private String totalAmount;
 
-    @Column(name = "listed_price")
-    private String listedPrice;
+//    @Column(name = "listed_price")
+//    private String listedPrice;
 
     private String available;
 
@@ -53,9 +53,6 @@ public class Products {
     private Brand brand;
 
     @OneToMany(mappedBy = "products", cascade = CascadeType.ALL)
-    private List<CartDetail> cartDetails;
-
-    @OneToMany(mappedBy = "products", cascade = CascadeType.ALL)
     private List<Colors> colors;
 
     @OneToMany(mappedBy = "products", cascade = CascadeType.ALL)
@@ -69,4 +66,7 @@ public class Products {
 
     @OneToMany(mappedBy = "products", cascade = CascadeType.ALL)
     private List<Sizes> sizes;
+
+    @OneToMany(mappedBy = "products", cascade = CascadeType.ALL)
+    private List<BillProduct> billProducts;
 }

@@ -18,4 +18,12 @@ public class BillProduct {
     private Double price;
 
     private int quantity;
+
+    @ManyToOne
+    @JoinColumn(name = "bill_id")
+    private Bill bill;
+
+    @ManyToOne
+    @JoinColumn(name = "prod_id")
+    private Products products;
 }

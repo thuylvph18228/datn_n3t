@@ -11,7 +11,7 @@ public class VoucherAccount {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "vcacc_id")
-    private Integer proCateId;
+    private Integer vcAccId;
 
     private String status;
 

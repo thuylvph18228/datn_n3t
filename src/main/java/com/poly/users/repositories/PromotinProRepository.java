@@ -1,6 +1,5 @@
 package com.poly.users.repositories;
 
-import com.poly.users.models.Cart;
 import com.poly.users.models.PromotionProduct;
 import org.springframework.data.jpa.repository.JpaRepository;
 

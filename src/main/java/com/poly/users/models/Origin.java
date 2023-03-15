@@ -2,6 +2,7 @@ package com.poly.users.models;
 
 import lombok.Data;
 import org.hibernate.annotations.CreationTimestamp;
+import org.hibernate.annotations.UpdateTimestamp;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
@@ -22,7 +23,7 @@ public class Origin {
     @Column(updatable = false)
     protected LocalDateTime createdAt;
 
-    @CreationTimestamp
+    @UpdateTimestamp
     protected LocalDateTime updateAt;
 
     @OneToMany(mappedBy = "origin", cascade = CascadeType.ALL)

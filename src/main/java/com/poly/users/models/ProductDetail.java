@@ -2,6 +2,7 @@ package com.poly.users.models;
 
 import lombok.Data;
 import org.hibernate.annotations.CreationTimestamp;
+import org.hibernate.annotations.UpdateTimestamp;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
@@ -28,7 +29,7 @@ public class ProductDetail {
     @Column(updatable = false)
     protected LocalDateTime createdAt;
 
-    @CreationTimestamp
+    @UpdateTimestamp
     protected LocalDateTime updateAt;
 
     @ManyToOne

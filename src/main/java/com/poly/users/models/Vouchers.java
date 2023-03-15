@@ -2,6 +2,7 @@ package com.poly.users.models;
 
 import lombok.Data;
 import org.hibernate.annotations.CreationTimestamp;
+import org.hibernate.annotations.UpdateTimestamp;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
@@ -45,6 +46,6 @@ public class Vouchers {
     @CreationTimestamp
     protected LocalDateTime fromTime;
 
-    @CreationTimestamp
+    @UpdateTimestamp
     protected LocalDateTime toTime;
 }

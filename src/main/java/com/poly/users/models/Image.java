@@ -1,8 +1,11 @@
 package com.poly.users.models;
 
 import lombok.Data;
+import org.hibernate.annotations.CreationTimestamp;
+import org.hibernate.annotations.UpdateTimestamp;
 
 import javax.persistence.*;
+import java.time.LocalDateTime;
 
 @Data
 @Entity
@@ -19,11 +22,12 @@ public class Image {
     @Column(name = "image_path")
     private String imagePath;
 
-    @Column(name = "updated_at")
-    private String updateAt;
+    @CreationTimestamp
+    @Column(updatable = false)
+    protected LocalDateTime createdAt;
 
-    @Column(name = "created_at")
-    private String createAt;
+    @UpdateTimestamp
+    protected LocalDateTime updateAt;
 
     @ManyToOne
     @JoinColumn(name = "prod_id")
