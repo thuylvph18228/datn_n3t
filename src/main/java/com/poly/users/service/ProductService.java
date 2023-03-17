@@ -1,20 +1,32 @@
 package com.poly.users.service;
 
-import com.poly.users.models.Products;
+import com.poly.users.DTO.ProductDto;
+import com.poly.users.entity.Product;
 import org.springframework.data.domain.Page;
 
 import java.util.List;
 
 public interface ProductService {
-    public List<Products> findAll();
 
-    public Products findById(Integer id) ;
+    Page<Product> getAll(Integer page, Integer size);
+    List<ProductDto> getAllByCreatedDate(String date);
+    List<ProductDto> getAllByUserId(int userId);
+    List<ProductDto> getAllByStatus(String status);
+    List<ProductDto> getAllByCategoryId(Integer categoriesId);
+    List<ProductDto> getAllByBrandId(Integer brandId);
+    List<ProductDto> getAllByBrandIdAndCategoryId(List<Integer> brandIds, List<Integer> categories);
+    List<ProductDto> getAllBySex(String sex);
+    List<ProductDto> getAllByHeight(List<Integer> height);
+    List<ProductDto> getAllBySize(List<Integer> size);
+    List<ProductDto> getAllByPrice(int priceStart, int priceEnd);
+    List<ProductDto> getAllBy(List<Integer> all);
+    ProductDto getById(int ProductId);
+    Page<Product> getByName(Integer page, Integer size, String name);
+    ProductDto save(ProductDto productDto);
+    void delete(int id);
 
-    public Products create(Products product) ;
+    List<Object> getProduct();
 
-    public Products update(Products product) ;
+    Product findByName(String name);
 
-    public void delete(Integer id) ;
-
-    Page<Products> getAll(Integer page, Integer size);
 }

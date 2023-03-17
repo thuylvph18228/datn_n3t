@@ -1,15 +1,17 @@
 package com.poly.users.service;
 
-import com.poly.users.models.ProductDetail;
+import com.poly.users.DTO.ProductDetailDto;
+import com.poly.users.entity.ProductDetail;
 
 import java.util.List;
 
 public interface ProductDetailService {
-    public List<ProductDetail> findAll();
+    List<ProductDetail> getAll();
+    List<ProductDetail> getAllByProductId(int productId);
+    ProductDetail getById(int ProductDetailId);
+    ProductDetail save(ProductDetailDto productDetailDto);
+    ProductDetail update(ProductDetail productDetail);
+    void delete(int id);
 
-    public ProductDetail findById(Integer id) ;
-
-    public ProductDetail create(ProductDetail product) ;
-
-    public ProductDetail update(ProductDetail product) ;
+    List<Object> checkQuantity(Integer id, Integer quantity);
 }

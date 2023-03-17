@@ -1,15 +1,14 @@
 package com.poly.users.service;
 
-import com.poly.users.models.Origin;
+
+import com.poly.users.entity.Origin;
 
 import java.util.List;
 
 public interface OriginService {
-    public List<Origin> findAll();
-
-    public Origin findById(Integer id) ;
-
-    public Origin create(Origin product) ;
-
-    public Origin update(Origin product) ;
+    List<Origin> getAll();
+    Origin getById(int OriginId);
+    Origin save(Origin origin);
+    Origin update(Origin origin);
+    void delete(int id);
 }

@@ -1,15 +1,24 @@
 package com.poly.users.service;
 
-import com.poly.users.models.Category;
+import com.poly.users.DTO.CategoryDto;
+import com.poly.users.entity.Category;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
 public interface CategoryService {
-    public List<Category> findAll();
+    List<CategoryDto> getAll();
+    Category getById(int categoryId);
+    Category getByBrandId(int brandId);
+    CategoryDto save(CategoryDto categoryDto);
 
-    public Category findById(Integer id) ;
+    @Transactional
+    Category save(Category category);
 
-    public Category create(Category product) ;
+    Category update(Category category);
+    Category delete(int id);
 
-    public Category update(Category product) ;
+    List<Category> getByName(String name);
+    List<CategoryDto> getAllBy(List<Integer> all);
+
 }

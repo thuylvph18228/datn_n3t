@@ -1,15 +1,18 @@
 package com.poly.users.service;
 
-import com.poly.users.models.Brand;
+import com.poly.users.DTO.BrandDto;
+import com.poly.users.entity.Brand;
 
 import java.util.List;
 
+
 public interface BrandService {
-    public List<Brand> findAll();
 
-    public Brand findById(Integer id) ;
+    List<Brand> getAll();
+    Brand getById(int brandId);
+    Brand save(Brand brand);
+    Brand update(Brand brand);
+    Brand delete(int id);
 
-    public Brand create(Brand product) ;
-
-    public Brand update(Brand product) ;
+    BrandDto save(BrandDto brandDto);
 }

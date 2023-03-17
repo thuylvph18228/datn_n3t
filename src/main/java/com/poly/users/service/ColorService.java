@@ -1,15 +1,13 @@
 package com.poly.users.service;
 
-import com.poly.users.models.Colors;
+import com.poly.users.entity.Color;
 
 import java.util.List;
 
 public interface ColorService {
-    public List<Colors> findAll();
-
-    public Colors findById(Integer id) ;
-
-    public Colors create(Colors product) ;
-
-    public Colors update(Colors product) ;
+    List<Color> getAll();
+    Color getById(int ColorId);
+    Color save(Color color);
+    Color update(Color color);
+    void delete(int id);
 }

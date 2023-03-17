@@ -1,15 +1,13 @@
 package com.poly.users.service;
 
-import com.poly.users.models.Sizes;
+import com.poly.users.entity.Size;
 
 import java.util.List;
 
 public interface SizeService {
-    public List<Sizes> findAll();
-
-    public Sizes findById(Integer id) ;
-
-    public Sizes create(Sizes product) ;
-
-    public Sizes update(Sizes product) ;
+    List<Size> getAll();
+    Size getById(int SizeId);
+    Size save(Size size);
+    Size update(Size size);
+    void delete(int id);
 }

@@ -1,15 +1,15 @@
 package com.poly.users.service;
 
-import com.poly.users.models.Image;
+import com.poly.users.DTO.ImageDto;
+import com.poly.users.entity.Image;
 
 import java.util.List;
 
 public interface ImageService {
-    public List<Image> findAll();
-
-    public Image findById(Integer id) ;
-
-    public Image create(Image product) ;
-
-    public Image update(Image product) ;
+    List<Image> getAll();
+    List<Image> getAllByProductId(int ImageId);
+    Image getById(int ImageId);
+    List<ImageDto> saveAll(List<ImageDto> image);
+    Image update(Image image);
+    void delete(int id);
 }
